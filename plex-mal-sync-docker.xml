@@ -19,14 +19,6 @@
         <Mode>host</Mode>
         <Publish/>
     </Networking>
-    <Environment/>
-    <Data>
-        <Volume>
-            <HostDir>/mnt/user/appdata/plex-mal-sync-docker/data</HostDir>
-            <ContainerDir>/app/data</ContainerDir>
-            <Mode>rw</Mode>
-        </Volume>
-    </Data>
     <Environment>
         <Variable>
             <Name>MAL_USERNAME</Name>
@@ -45,6 +37,13 @@
             <Value>Plex server url</Value>
         </Variable>
     </Environment>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/plex-mal-sync-docker/data</HostDir>
+            <ContainerDir>/app/data</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
     <WebUI>https://myanimelist.net/</WebUI>
     <Icon>
         https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6c/6c7419658ea598af00a30a46fac6a5a29fd640b3_full.jpg
