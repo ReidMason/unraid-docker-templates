@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2019-06-13</Date>
-  <Beta>False</Beta>
-  <Name>Plex mal sync</Name>
-  <Overview>
-    Syncs plex and mal
-  </Overview>
-  <Description>
-	Syncs plex and mal
-  </Description>
-  <Registry>https://hub.docker.com/r/skippythesnake/plex-mal-sync-docker</Registry>
-  <GitHub>https://github.com/SkippyTheSnake/plex-mal-sync-docker</GitHub>
-  <Repository>skippythesnake/plex-mal-sync-docker</Repository>
-  <Support>https://forums.unraid.net/topic/38974-support-limetechs-docker-repository/</Support>
-  <BindTime>true</BindTime>
-  <Privileged>true</Privileged>
-  <Networking>
-    <Mode>host</Mode>
-    <Publish/>
-  </Networking>
-  <Environment/>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/plex-mal-sync-docker/data</HostDir>
-      <ContainerDir>/data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <WebUI>https://myanimelist.net/</WebUI>
-  <Banner></Banner>
-  <Icon>https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6c/6c7419658ea598af00a30a46fac6a5a29fd640b3_full.jpg</Icon>
+    <Date>2019-06-13</Date>
+    <Beta>False</Beta>
+    <Name>Plex mal sync</Name>
+    <Overview>
+        Syncs plex and mal
+    </Overview>
+    <Description>
+        Syncs plex and mal
+    </Description>
+    <Registry>https://registry.hub.docker.com/u/skippythesnake/plex-mal-sync-docker</Registry>
+    <GitHub>https://github.com/SkippyTheSnake/plex-mal-sync-docker</GitHub>
+    <Repository>skippythesnake/plex-mal-sync-docker</Repository>
+    <Support>https://forums.unraid.net/topic/38974-support-limetechs-docker-repository/</Support>
+    <BindTime>true</BindTime>
+    <Privileged>true</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Environment/>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/plex-mal-sync-docker/data</HostDir>
+            <ContainerDir>/data</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>https://myanimelist.net/</WebUI>
+    <Icon>
+        https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6c/6c7419658ea598af00a30a46fac6a5a29fd640b3_full.jpg
+    </Icon>
 </Containers>
