@@ -27,6 +27,24 @@
             <Mode>rw</Mode>
         </Volume>
     </Data>
+    <Environment>
+        <Variable>
+            <Name>MAL_USERNAME</Name>
+            <Value>Username</Value>
+        </Variable>
+        <Variable>
+            <Name>MAL_PASSWORD</Name>
+            <Value>Mal password</Value>
+        </Variable>
+        <Variable>
+            <Name>SERVER_TOKEN</Name>
+            <Value>Plex server token</Value>
+        </Variable>
+        <Variable>
+            <Name>SERVER_URL</Name>
+            <Value>Plex server url</Value>
+        </Variable>
+    </Environment>
     <WebUI>https://myanimelist.net/</WebUI>
     <Icon>
         https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6c/6c7419658ea598af00a30a46fac6a5a29fd640b3_full.jpg
