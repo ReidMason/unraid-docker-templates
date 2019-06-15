@@ -12,9 +12,9 @@
     <Registry>https://registry.hub.docker.com/u/skippythesnake/plex-mal-sync-docker</Registry>
     <GitHub>https://github.com/SkippyTheSnake/plex-mal-sync-docker</GitHub>
     <Repository>skippythesnake/plex-mal-sync-docker</Repository>
-    <Support>https://forums.unraid.net/topic/38974-support-limetechs-docker-repository/</Support>
+    <Support>https://github.com/SkippyTheSnake/plex-mal-sync-docker</Support>
     <BindTime>true</BindTime>
-    <Privileged>true</Privileged>
+    <Privileged>false</Privileged>
     <Networking>
         <Mode>host</Mode>
         <Publish/>
