@@ -22,7 +22,7 @@
     <Environment>
         <Variable>
             <Name>USERNAMES</Name>
-            <Value>Username</Value>
+            <Value>Username1 Username2</Value>
         </Variable>
         <Variable>
             <Name>NUM_BACKUPS</Name>
