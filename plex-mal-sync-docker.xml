@@ -39,7 +39,7 @@
     </Environment>
     <Data>
         <Volume>
-            <HostDir>/mnt/user/appdata/plex-mal-sync-docker/data</HostDir>
+            <HostDir>/mnt/user/appdata/plex-mal-sync/data</HostDir>
             <ContainerDir>/app/data</ContainerDir>
             <Mode>rw</Mode>
         </Volume>
