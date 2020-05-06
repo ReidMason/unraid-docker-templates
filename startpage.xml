@@ -8,7 +8,7 @@
     </Overview>
     <Registry>https://registry.hub.docker.com/u/skippythesnake/startpage</Registry>
     <GitHub>https://github.com/SkippyTheSnake/Startpage</GitHub>
-    <Repository>skippythesnake/Startpage</Repository>
+    <Repository>skippythesnake/startpage</Repository>
     <Support>https://github.com/SkippyTheSnake/Startpage</Support>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
