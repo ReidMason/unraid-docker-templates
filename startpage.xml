@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Date>2020-06-05</Date>
+    <Beta>False</Beta>
+    <Name>Startpage</Name>
+    <Overview>
+        A custom startpage
+    </Overview>
+    <Registry>https://registry.hub.docker.com/u/skippythesnake/startpage</Registry>
+    <GitHub>https://github.com/SkippyTheSnake/Startpage</GitHub>
+    <Repository>skippythesnake/Startpage</Repository>
+    <Support>https://github.com/SkippyTheSnake/Startpage</Support>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/srartpage</HostDir>
+            <ContainerDir>/app/data</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>http://localhost:5003/</WebUI>
+</Containers>
