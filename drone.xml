@@ -18,10 +18,12 @@
             <Port>
                 <HostPort>9080</HostPort>
                 <ContainerPort>80</ContainerPort>
+                <Protocol>tcp</Protocol>
             </Port>
             <Port>
                 <HostPort>90443</HostPort>
                 <ContainerPort>443</ContainerPort>
+                <Protocol>tcp</Protocol>
             </Port>
         </Publish>
     </Networking>
@@ -58,5 +60,5 @@
             <Mode>rw</Mode>
         </Volume>
     </Data>
-    <WebUI>http://localhost:9080/</WebUI>
+    <WebUI>http://[IP]:[PORT:9080]/</WebUI>
 </Containers>
