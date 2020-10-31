@@ -4,7 +4,7 @@
     <Beta>False</Beta>
     <Name>Drone</Name>
     <Overview>
-        A custom startpage
+        Drone is a Continuous Integration platform built on Docker
     </Overview>
     <Registry>https://registry.hub.docker.com/u/drone/drone</Registry>
     <GitHub>https://github.com/drone/drone</GitHub>
