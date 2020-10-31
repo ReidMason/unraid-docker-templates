@@ -50,7 +50,6 @@
         </Variable>
         <Variable>
             <Name>DRONE_SERVER_PROTO</Name>
-            <Key>Drone protocol</Key>
             <Value>http</Value>
         </Variable>
     </Environment>
